@@ -3364,13 +3364,16 @@ export function loadShields() {
     ...usInterstateShield,
   };
   shields["EC:secundaria"] = {
-    spriteBlank: ["shield_ec_secundaria_2", "shield_ec_secundaria_3"],
-    textLayout: textConstraint("southHalfEllipse"),
+    spriteBlank: [
+      "shield_ec_secundaria_2",
+      "shield_ec_secundaria_3",
+      "shield_ec_secundaria_4",
+    ],
     textColor: Color.shields.white,
     padding: {
       left: 4,
       right: 4,
-      top: 6,
+      top: 5,
       bottom: 5,
     },
   };
